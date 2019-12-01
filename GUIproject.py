@@ -82,18 +82,18 @@ def sell(arg):
     run_motor_sequence(1,400,'clock')
     time.sleep(0.1)
     run_motor_sequence(2, 120, 'clock')
-    Servo(180)
+    Servo(90)
     time.sleep(0.1)
-    Servo(-180)
+    Servo(-90)
     run_motor_sequence(2,120,'not-clock')
 
   if arg == 'Chips':
     run_motor_sequence(1, 400, 'clock')
     time.sleep(0.1)
     run_motor_sequence(3, 120, 'clock')
-    Servo(180)
+    Servo(90)
     time.sleep(0.1)
-    Servo(-180)
+    Servo(-90)
     run_motor_sequence(3, 120, 'not-clock')
 
 
